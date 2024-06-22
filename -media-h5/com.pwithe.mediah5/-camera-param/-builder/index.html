@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Builder</title>
+    <link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../../index.html">
+                            MediaH5
+                    </a>
+            </div>
+            <div class="library-version">
+4.1.68-SNAPSHOT            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":MediaH5:dokkaHtml/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="MediaH5::com.pwithe.mediah5/CameraParam.Builder///PointingToDeclaration//-907193071">
+  <div class="breadcrumbs"><a href="../../../../index.html">MediaH5</a><span class="delimiter">/</span><a href="../../index.html">com.pwithe.mediah5</a><span class="delimiter">/</span><a href="../index.html">CameraParam</a><span class="delimiter">/</span><span class="current">Builder</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Builder</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Builder</a></div><p class="paragraph">相机参数构造器</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="1946914028%2FConstructors%2F-907193071" anchor-label="Builder" id="1946914028%2FConstructors%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-builder.html"><span><span>Builder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1946914028%2FConstructors%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="583074521%2FFunctions%2F-907193071" anchor-label="addSurfaceSize" id="583074521%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="add-surface-size.html"><span>add</span><wbr></wbr><span>Surface</span><wbr></wbr><span><span>Size</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="583074521%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="add-surface-size.html"><span class="token function">addSurfaceSize</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">width<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span></span><span class="parameter ">height<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">添加预置 surface 大小</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1168837531%2FFunctions%2F-907193071" anchor-label="addVideoEncoderSize" id="1168837531%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="add-video-encoder-size.html"><span>add</span><wbr></wbr><span>Video</span><wbr></wbr><span>Encoder</span><wbr></wbr><span><span>Size</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1168837531%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="add-video-encoder-size.html"><span class="token function">addVideoEncoderSize</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">width<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span></span><span class="parameter ">height<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">添加视频编码大小</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1255636953%2FFunctions%2F-907193071" anchor-label="build" id="1255636953%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="build.html"><span><span>build</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1255636953%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="build.html"><span class="token function">build</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../index.html">CameraParam</a></div><div class="brief "><p class="paragraph">构造相机参数</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1345813474%2FFunctions%2F-907193071" anchor-label="setApplicationContext" id="1345813474%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-application-context.html"><span>set</span><wbr></wbr><span>Application</span><wbr></wbr><span><span>Context</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1345813474%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-application-context.html"><span class="token function">setApplicationContext</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><span data-unresolved-link="android.content/Context///PointingToDeclaration/">Context</span><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置系统上下文</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1611760933%2FFunctions%2F-907193071" anchor-label="setBrightness" id="1611760933%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-brightness.html"><span>set</span><wbr></wbr><span><span>Brightness</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1611760933%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-brightness.html"><span class="token function">setBrightness</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">brightness<span class="token operator">: </span><span data-unresolved-link="kotlin/Float///PointingToDeclaration/">Float</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置亮度度，默认为 0，取值范围 -1 - 1，暂时只在 Camera1 模式下生效</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="748509540%2FFunctions%2F-907193071" anchor-label="setCameraID" id="748509540%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-camera-i-d.html"><span>set</span><wbr></wbr><span>Camera</span><wbr></wbr><span><span>ID</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="748509540%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-camera-i-d.html"><span class="token function">setCameraID</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">cameraID<span class="token operator">: </span><span data-unresolved-link="kotlin/String///PointingToDeclaration/">String</span><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置 CameraID</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-93095890%2FFunctions%2F-907193071" anchor-label="setCameraType" id="-93095890%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-camera-type.html"><span>set</span><wbr></wbr><span>Camera</span><wbr></wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-93095890%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-camera-type.html"><span class="token function">setCameraType</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">cameraType<span class="token operator">: </span><a href="../../-camera-type/index.html">CameraType</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置相机类型</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1374270700%2FFunctions%2F-907193071" anchor-label="setContrast" id="-1374270700%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-contrast.html"><span>set</span><wbr></wbr><span><span>Contrast</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1374270700%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-contrast.html"><span class="token function">setContrast</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">contrast<span class="token operator">: </span><span data-unresolved-link="kotlin/Float///PointingToDeclaration/">Float</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置对比度，默认为 1.0，取值范围 0 - 2，暂时只在 Camera1 模式下生效</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-821442834%2FFunctions%2F-907193071" anchor-label="setEnableEIS" id="-821442834%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-enable-e-i-s.html"><span>set</span><wbr></wbr><span>Enable</span><wbr></wbr><span><span>EIS</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-821442834%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-enable-e-i-s.html"><span class="token function">setEnableEIS</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">enableEIS<span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置是否使用 EIS，默认为不使用</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="400685450%2FFunctions%2F-907193071" anchor-label="setFps" id="400685450%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-fps.html"><span>set</span><wbr></wbr><span><span>Fps</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="400685450%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-fps.html"><span class="token function">setFps</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fps<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置相机帧率</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1914969771%2FFunctions%2F-907193071" anchor-label="setMirror" id="1914969771%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-mirror.html"><span>set</span><wbr></wbr><span><span>Mirror</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1914969771%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-mirror.html"><span class="token function">setMirror</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">mirror<span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置镜像，默认为不使用</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1792836878%2FFunctions%2F-907193071" anchor-label="setPhotoSize" id="-1792836878%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-photo-size.html"><span>set</span><wbr></wbr><span>Photo</span><wbr></wbr><span><span>Size</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1792836878%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-photo-size.html"><span class="token function">setPhotoSize</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">size<span class="token operator">: </span><span data-unresolved-link="android.util/Size///PointingToDeclaration/">Size</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置拍照分辨率</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1109393732%2FFunctions%2F-907193071" anchor-label="setPipDevices" id="1109393732%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-pip-devices.html"><span>set</span><wbr></wbr><span>Pip</span><wbr></wbr><span><span>Devices</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1109393732%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-pip-devices.html"><span class="token function">setPipDevices</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">pipDevices<span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置是否为 pip device，MTK机型同时打开多相机需要设置</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-841282575%2FFunctions%2F-907193071" anchor-label="setPreviewFormat" id="-841282575%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-preview-format.html"><span>set</span><wbr></wbr><span>Preview</span><wbr></wbr><span><span>Format</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-841282575%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-preview-format.html"><span class="token function">setPreviewFormat</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">type<span class="token operator">: </span><a href="../../-yuv-type/index.html">YuvType</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置相机预览使用格式，Camera1 相关模式生效</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1192441726%2FFunctions%2F-907193071" anchor-label="setPreviewFps" id="-1192441726%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-preview-fps.html"><span>set</span><wbr></wbr><span>Preview</span><wbr></wbr><span><span>Fps</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1192441726%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-preview-fps.html"><span class="token function">setPreviewFps</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fps<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置预览帧率</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="132901011%2FFunctions%2F-907193071" anchor-label="setPreviewSize" id="132901011%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-preview-size.html"><span>set</span><wbr></wbr><span>Preview</span><wbr></wbr><span><span>Size</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="132901011%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-preview-size.html"><span class="token function">setPreviewSize</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">width<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span></span><span class="parameter ">height<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置相机预览大小，并非实际预览大小</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1848687219%2FFunctions%2F-907193071" anchor-label="setPreviewStandaloneStream" id="-1848687219%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-preview-standalone-stream.html"><span>set</span><wbr></wbr><span>Preview</span><wbr></wbr><span>Standalone</span><wbr></wbr><span><span>Stream</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1848687219%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-preview-standalone-stream.html"><span class="token function">setPreviewStandaloneStream</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">previewStandaloneStream<span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置预览是否为独立流，默认预览为独立流</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="761527206%2FFunctions%2F-907193071" anchor-label="setPreviewUseFBO" id="761527206%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-preview-use-f-b-o.html"><span>set</span><wbr></wbr><span>Preview</span><wbr></wbr><span>Use</span><wbr></wbr><span><span>FBO</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="761527206%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-preview-use-f-b-o.html"><span class="token function">setPreviewUseFBO</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">useFBO<span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置预览是否使用 FBO，如果不使用 FBO，会将画面直接渲染到预览界面，使用 FBO，会渲染到中间层再渲染到预览界面</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1461423759%2FFunctions%2F-907193071" anchor-label="setPrivacyMode" id="1461423759%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-privacy-mode.html"><span>set</span><wbr></wbr><span>Privacy</span><wbr></wbr><span><span>Mode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1461423759%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-privacy-mode.html"><span class="token function">setPrivacyMode</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">privacyMode<span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置隐私模式，默认为不使用，在 Camera1 模式下使用</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-878109464%2FFunctions%2F-907193071" anchor-label="setRotate" id="-878109464%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-rotate.html"><span>set</span><wbr></wbr><span><span>Rotate</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-878109464%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-rotate.html"><span class="token function">setRotate</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">rotate<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置视频旋转度数，默认为不旋转</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="800522820%2FFunctions%2F-907193071" anchor-label="setSaturation" id="800522820%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-saturation.html"><span>set</span><wbr></wbr><span><span>Saturation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="800522820%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-saturation.html"><span class="token function">setSaturation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">saturation<span class="token operator">: </span><span data-unresolved-link="kotlin/Float///PointingToDeclaration/">Float</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置饱和度，默认为 1，取值范围 0 - 2，暂时只在 Camera1 模式下生效</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1150961445%2FFunctions%2F-907193071" anchor-label="setSharpness" id="1150961445%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-sharpness.html"><span>set</span><wbr></wbr><span><span>Sharpness</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1150961445%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-sharpness.html"><span class="token function">setSharpness</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">sharpness<span class="token operator">: </span><span data-unresolved-link="kotlin/Float///PointingToDeclaration/">Float</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置锐度，默认为 0，暂时只再 Camera1 模式下生效</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1163969152%2FFunctions%2F-907193071" anchor-label="setSharpnessLevel" id="1163969152%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-sharpness-level.html"><span>set</span><wbr></wbr><span>Sharpness</span><wbr></wbr><span><span>Level</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1163969152%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-sharpness-level.html"><span class="token function">setSharpnessLevel</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">level<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置锐度级别，默认为 0（不进行锐化），暂时只再 Camera1 模式下生效 <br /> 0 - 不进行锐化  <br /> 1 - 使用 四邻域 矩阵  <br /> 2 - 使用 八邻域 矩阵  <br /></p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-83059770%2FFunctions%2F-907193071" anchor-label="setStateCallback" id="-83059770%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-state-callback.html"><span>set</span><wbr></wbr><span>State</span><wbr></wbr><span><span>Callback</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-83059770%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-state-callback.html"><span class="token function">setStateCallback</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">stateCallback<span class="token operator">: </span><a href="../../-camera-state-callback/index.html">CameraStateCallback</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置相机状态回调</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-25055317%2FFunctions%2F-907193071" anchor-label="setWindowSize" id="-25055317%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-window-size.html"><span>set</span><wbr></wbr><span>Window</span><wbr></wbr><span><span>Size</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-25055317%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-window-size.html"><span class="token function">setWindowSize</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">width<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span></span><span class="parameter ">height<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置预览窗口大小，默认为 240 * 135，在 Normal 模式下使用</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2061832559%2FFunctions%2F-907193071" anchor-label="setYuvDataSize" id="2061832559%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-yuv-data-size.html"><span>set</span><wbr></wbr><span>Yuv</span><wbr></wbr><span>Data</span><wbr></wbr><span><span>Size</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2061832559%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-yuv-data-size.html"><span class="token function">setYuvDataSize</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">width<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span></span><span class="parameter ">height<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置Yuv回调大小，在 Camera2 并且不使用 EIS时需要设置</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1935477619%2FFunctions%2F-907193071" anchor-label="useCamera1" id="1935477619%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="use-camera1.html"><span>use</span><wbr></wbr><span><span>Camera1</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1935477619%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="use-camera1.html"><span class="token function">useCamera1</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">useCamera1<span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">是否使用 Camera1，默认为不使用</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1762730217%2FFunctions%2F-907193071" anchor-label="useCamera1Cpu" id="1762730217%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="use-camera1-cpu.html"><span>use</span><wbr></wbr><span><span>Camera1Cpu</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1762730217%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="use-camera1-cpu.html"><span class="token function">useCamera1Cpu</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">use<span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">是否使用 Camera1CPU模式。默认为不使用</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-914552115%2FFunctions%2F-907193071" anchor-label="useImageReaderCodec" id="-914552115%2FFunctions%2F-907193071" data-filterable-set=":MediaH5:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":MediaH5:dokkaHtml/release" data-filterable-set=":MediaH5:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="use-image-reader-codec.html"><span>use</span><wbr></wbr><span>Image</span><wbr></wbr><span>Reader</span><wbr></wbr><span><span>Codec</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-914552115%2FFunctions%2F-907193071"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":MediaH5:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="use-image-reader-codec.html"><span class="token function">useImageReaderCodec</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">used<span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">CameraParam.Builder</a></div><div class="brief "><p class="paragraph">设置是否使用 ImageReader 模式</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>Copyright © 2024, Pe. All rights reserved.</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
